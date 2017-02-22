@@ -1,0 +1,1 @@
+export const FIRST_COPYRIGHT_YEAR = 2017;
