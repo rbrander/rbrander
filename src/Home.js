@@ -15,7 +15,20 @@ const Home = () => (
             <div className="dib v-mid">
               <img role="presentation" src={ Assets.github } />
             </div>
-            <div className="dib v-mid pl2 f3">rbrander</div>
+            <div className="dib v-mid pl2 f3">GitHub</div>
+          </a>
+        </div>
+        <div className="w-20" />
+      </div>
+
+      <div className="flex">
+        <div className="w-20" />
+        <div className="w-60 pa2 grow">
+          <a className="link black" href="https://rbrander.github.io" target="_blank">
+            <div className="dib v-mid">
+              <img role="presentation" src={ Assets.github } />
+            </div>
+            <div className="dib v-mid pl2 f3">GitHub Pages</div>
           </a>
         </div>
         <div className="w-20" />
