@@ -34,6 +34,18 @@ const Home = () => (
         <div className="w-20" />
       </div>
 
+      <div className="flex">
+        <div className="w-20" />
+        <div className="w-60 pa2 grow">
+          <a className="link black" href="http://codepen.io/rbrander/pens/public/" target="_blank">
+            <div className="dib v-mid">
+              <img role="presentation" src={ Assets.codepen } />
+            </div>
+            <div className="dib v-mid pl2 f3">Codepen</div>
+          </a>
+        </div>
+        <div className="w-20" />
+      </div>
 
       <div className="flex ">
         <div className="w-20" />
