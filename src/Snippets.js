@@ -6,6 +6,12 @@ const Snippets = () => (
     <h1>Code Snippets</h1>
     <div className="f5">Snippets are small pieces of code that may work on their own; or may be a fragment used for illustration purposes.</div>
     <div className="mt4">
+      <div className="f3">isDeeplyEqual</div>
+      <div className="pb2"><small className="gray">Created: Feb 14, 2020</small></div>
+      <div className="f5 mb2">A function to compare two objects recursively</div>
+      <EmbeddedGist gist="rbrander/35b9789de567cd6bc967709f200240dd" />
+    </div>
+    <div className="mt4">
       <div className="f3">String.prototype.repeat polyfill</div>
       <div className="pb2"><small className="gray">Created: Apr 28, 2017</small></div>
       <div className="f5 mb2">A simple polyfill for String.prototype.repeat</div>
